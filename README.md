@@ -1,12 +1,12 @@
 # Nikki181-CS50--InventoryManagement_capstoneproject
-**
-• Inventory Management System:**
+
+# • Inventory Management System:
 - The main purpose of inventory management system is to track stocks of different products within the inventory and can order more if the item is low in stock or out of stock. This system is used for keeping inventory operations smooth and efficient in each inventory created by particular user. User can also manage multiple inventories in one place and categorize the items in multiple categories within the inventory.
 - In this web application, user can create/edit/delete inventories as well as categories within the inventory and also manage items within individual category.
 - User can also download their all-inventories data into excel and get the idea about its item under each category. And apply filters to search particular item, or filter items by its status and category.
 	
-**
-• Why you believe your project satisfies the distinctiveness and complexity requirements, mentioned above.**
+
+# • Why you believe your project satisfies the distinctiveness and complexity requirements, mentioned above.
 
 - In addition to basic features which are included in previous projects like Responsive web application, Django models utilization, CRUD operations, Exception handling. I have implemented following new features:   
 	- view-notification will scan all the inventories of that particular user and fetch all the categories items which are low in stock or out of stock and remind user to refill the stock of that item.
@@ -15,16 +15,16 @@
 	- User can add multiple inventories in just one system and manage all the data in just one place.
 	- User can also perform create/Edit/Delete operations on individual items, category within inventory and entire inventory.
 	- 
-**
-• How to run your application.**
+
+# • How to run your application.
 
 1.	Download my code and unzip it.
 2.	In the terminal, cd into "inventorymanagement" directory.
 3.	Run "python.manage.py makemigrations" to make migrations for the inventorymanagement app.
 4.	"python manage.py migrate" to apply migrations to my database.
 5.	"python manage.py runserver" to run the application and click on the URL appears in the terminal – you can see the login page of the application.
-**
-• What’s contained in each file you created.**
+
+# • What’s contained in each file you created.
 
 - In the distribution code is a Django project called inventorymanagement that contains a single app called inventory.
 - urls.py - inventory/urls.py, where the URL Configuration of all the pages for this app is defined.
